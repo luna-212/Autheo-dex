@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+    color: #e2e8f0;
+      font-family: ui-sans-serif, system-ui;
+      }
+
+      button {
+        transition: all 0.2s ease;
+        }
+
+        button:hover {
+          transform: scale(1.05);
+          }
