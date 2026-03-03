@@ -3,6 +3,12 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 
+declare global {
+    interface Window {
+        ethereum?: any;
+          }
+          }
+
 const CONTRACT_ADDRESS = "0xbA3Df320996eed030a418413e239be44f28C0e3F";
 
 const ABI = [
