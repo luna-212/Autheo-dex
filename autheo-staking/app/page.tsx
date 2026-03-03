@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 
-const CONTRACT_ADDRESS = "ISI_DENGAN_ALAMAT_STAKING_CONTRACT_KAMU";
+const CONTRACT_ADDRESS = "0xbA3Df320996eed030a418413e239be44f28C0e3F";
 
 const ABI = [
   "function stake(uint256 amount) external",
